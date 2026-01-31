@@ -3,7 +3,8 @@ var express = require('express'),
   path = require('path') 
 var app = express();
 var crypto = require("crypto");
-var consumerSecretApp = process.env.CANVAS_CONSUMER_SECRET || '5AE4CA1543118B24EDA3A67A68BFB4AB7564E6229C33AABD09416D36BC9CA3CB';
+var consumerSecretApp =
+  process.env.CANVAS_CONSUMER_SECRET || "60CC69B79858A951F6F4DAAE5014F801F73FE8390A99241989B3D1D0E436704F";
 
 console.log('consumer secret - '+consumerSecretApp);
 
